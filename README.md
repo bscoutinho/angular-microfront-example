@@ -1,4 +1,17 @@
+## Based on thos article
 
+https://medium.com/rocket-mortgage-technology-blog/micro-front-end-architectures-9875ca1b8b05
+
+
+## Micro-Frontend Strategy
+
+Example Using Angular Libraries
+
+Package each micro front-end (components) as a library. Then, you can pull those micro front-end libraries into your shell application.
+
+Unfortunately, with this approach, a change to any single micro front-end library requires updating the shell and redeploying the entire product suite. I prefer to avoid this level of coupling and the coordination required to ensure you aren’t pushing another team’s work to production prematurely.
+
+But if the intention is reuse those components (libraries) in different projects, that approach is the best one.
 
 # NgGrill
 

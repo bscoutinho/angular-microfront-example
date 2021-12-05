@@ -1,6 +1,84 @@
 {
   "version": 1,
   "projects": {
+    "locations": {
+      "projectType": "library",
+      "root": "libs/locations",
+      "sourceRoot": "libs/locations/src",
+      "prefix": "ng-grill",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/locations"],
+          "options": {
+            "jestConfig": "libs/locations/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/locations/src/**/*.ts",
+              "libs/locations/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "menu": {
+      "projectType": "library",
+      "root": "libs/menu",
+      "sourceRoot": "libs/menu/src",
+      "prefix": "ng-grill",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/menu"],
+          "options": {
+            "jestConfig": "libs/menu/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/menu/src/**/*.ts",
+              "libs/menu/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "order": {
+      "projectType": "library",
+      "root": "libs/order",
+      "sourceRoot": "libs/order/src",
+      "prefix": "ng-grill",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/order"],
+          "options": {
+            "jestConfig": "libs/order/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/order/src/**/*.ts",
+              "libs/order/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
     "shell": {
       "projectType": "application",
       "root": "apps/shell",

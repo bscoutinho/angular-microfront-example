@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ng-grill/locations": ["libs/locations/src/index.ts"],
+      "@ng-grill/menu": ["libs/menu/src/index.ts"],
+      "@ng-grill/order": ["libs/order/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
