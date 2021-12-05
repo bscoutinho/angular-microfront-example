@@ -1,4 +1,4 @@
-## Based on thos article
+## Based on this article
 
 https://medium.com/rocket-mortgage-technology-blog/micro-front-end-architectures-9875ca1b8b05
 
